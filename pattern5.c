@@ -25,11 +25,20 @@ Note: Spaces indicate indentation.
 #include <stdio.h>
 
 int main() {
-    for(int i=5;i>=1;i--){
-        for(int j=i;j>=1;j--){
+    for (int i = 5; i >= 1; i--) {
+        
+        // spaces
+        for (int j = 5; j > i; j--) {
+            printf(" ");
+        }
+
+        // stars
+        for (int j = 1; j <= i; j++) {
             printf("*");
         }
+
         printf("\n");
     }
+
     return 0;
 }
