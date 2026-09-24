@@ -22,7 +22,7 @@ int main() {
     printf("ENTER SIZE OF THE ARRAY : ");
     scanf("%d", &n);
     int arr[n];
-    printf("ENTER %d ELEMENTS OF THE ARRAY : ");
+    printf("ENTER %d ELEMENTS OF THE ARRAY : ",n);
     for(i=0;i<n;i++){
         scanf("%d", &arr[i]);
     }
