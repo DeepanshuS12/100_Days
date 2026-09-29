@@ -18,7 +18,7 @@ int main() {
     printf("ENTER THE SIZE OF THE MATRIX : ");
     scanf("%d %d", &m, &n);
     int arr[m][n];
-    printf("ENTER %dX%d ELEMENTS OF THE MATRIX : ");
+    printf("ENTER %dX%d ELEMENTS OF THE MATRIX : ", m, n);
     for(i=0;i<m;i++){
         for(j=0;j<n;j++)
         scanf("%d", &arr[i][j]);
