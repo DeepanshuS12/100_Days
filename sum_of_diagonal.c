@@ -30,9 +30,7 @@ int main()
         for (j = 0; j < n; j++)
         {
             if (i == j)
-            {
-                sum = sum + arr[i][j];
-            }
+            sum = sum + arr[i][j];
         }
     }
     printf("SUM OF THE DIAGONAL ELEMENTS : %d", sum);
